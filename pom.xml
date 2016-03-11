@@ -7,7 +7,7 @@
     <packaging>maven-archetype</packaging>
 	<name>Spring MVC Maven Archetype: Quickstart</name>
     <description>Archetype for creating Spring MVC 4 web application</description>
-	<url>https://github.com/cdavid15/spring-mvc-quickstart-archetype.git</url>
+	<url>https://github.com/cdavid15/spring-mvc-quickstart-archetype</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
@@ -17,7 +17,7 @@
 	  <extension>
 		<groupId>org.apache.maven.archetype</groupId>
 		<artifactId>archetype-packaging</artifactId>
-		<version>2.2</version>
+		<version>2.4</version>
 	  </extension>
 	</extensions>
 	
@@ -26,7 +26,7 @@
 		<plugin>
 		  <groupId>org.apache.maven.plugins</groupId>
 		  <artifactId>maven-archetype-plugin</artifactId>
-		  <version>2.2</version>
+		  <version>2.4</version>
 		</plugin>
 	  </plugins>
 	</pluginManagement>
